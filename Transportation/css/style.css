@@ -1,7 +1,81 @@
-.small-navbar{
-    height: 40px !important;
+body{
+   
 }
-.topNav{
-    margin-top: 56px;
-    background-color: rgb(209, 154, 154) !important;
+/* comman classes */
+.my-color{
+    color: #5d13e7 !important;
+}
+.title{
+    color: #5d13e7 !important;
+    font-size: 3.2rem !important;
+    font-weight: 100 !important;
+}
+p{
+    font-size: 1.1rem !important;
+    letter-spacing: 0.6px !important;
+}
+/* NAVIGATIONA */
+.fixed-top-2 {
+    margin-top: 56px !important;
+}
+#scroll{
+    transition: 0.5s;
+    height: 100px !important;
+}
+.white{
+    background-color: #fff;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #5d13e7 !important;
+    
+}
+.active{
+    color: #5d13e7 !important;
+}
+.nav-link:hover{
+    color: #5d13e7 !important;
+}
+/* HEADER */
+.img{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.37)), url(/Transportation/img/img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section .hero-text{
+    margin-top: 21rem;
+    /* background-color: #000; */
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+    /* font-weight: 100; */
+}
+.hero-section p{
+    font-size: 1.1rem;
+}
+.hero-section .btn-secondary{
+    background-color: #5d13e7;
+    border: none;
+}
+.hero-section input[type=text]{
+    height: 3rem;
+}
+.d-flex{
+    display: flex !important;
+}
+.vehicle .card img{
+    border: none !important;
+    border-radius: none !important;
+    height: 300px !important;
+    width: 360px !important;
+}
+.vehicle h5{
+    color: #5d13e7 !important;
+    font-size: 1.4rem;
+}
+/* services */
+.services{
+    height: 50vh;
+    background-color: #f6f5f5 !important;
 }

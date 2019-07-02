@@ -5,38 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Transportation</title>
-    <link rel="stylesheet" href="style.css">
+    
     <!-- Bootstarp links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Transportation/css/bootstrap.css">
     <script src="https://kit.fontawesome.com/c405ff10c6.js"></script>
+  <link rel="stylesheet" href="/Transportation/css/style.css">
+  
 
 </head>
 <body>
-    <!-- small navbar -->
-   <div class="navbar navbar-expand  navbar-light bg-light ">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav mr-auto">
-                    <a href="#" class="nav-item nav-link"><i class="far fa-envelope-open"></i> <span class="d-none d-md-inline-block">info@yourdomain.com</span></a>
-                    <a href="#" class="nav-item nav-link"><i class="fas fa-phone-alt"></i> <span class="d-none d-md-inline-block"> 1+ (234) 5678 9101</span></a>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link"><i class="fas fa-phone-alt"></i> <span class="d-none d-md-inline-block">Twitter</span></a>
-                    <a href="#" class="nav-item nav-link"><i class="fab fa-facebook-f"></i></i> <span class="d-none d-md-inline-block">Facebook</span></a>
-                </ul>
-            </div>
-        </div>
-    </div>
+
     <!-- Main Navbar --> 
-    <div class="navbar navbar-expand-md fixed-top navbar-light bg-light topNav">
+    <div class="navbar navbar-expand-md fixed-top navbar-light white  " id="scroll">
         <div class="container">
-            <a href="#" class="navbar-brand">Transport</a>
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold">Transport</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
             </button>                
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link">Home</a>
+                    <a href="#" class="nav-item nav-link active">Home</a>
                     <a href="#" class="nav-item nav-link">Services</a>
                     <a href="#" class="nav-item nav-link">About Us</a>
                     <a href="#" class="nav-item nav-link">Why Us</a>
@@ -46,12 +34,70 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> 
+    <header class="img hero-section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="text-center pt-5 text-white hero-text ">TRANSPORTATIONS &  LOGISTICS</h1>
+                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus  dolorem eius eligendi esse quod?</p>
+                    <form class="form-group d-flex mt-5">
+                        <input type="text" class="form-control" placeholder="Your Tracking Number">
+                        <input class="btn btn-secondary ml-3" type="submit" value="Track Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- different vehicle -->
+    <section class="mt-5 container vehicle">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class="card" style="width:18rem;">
+                <img class="card-img-top" src="/Transportation/img/one.jpg" alt="">
+               </div>
+               <h5 class="text-center  mt-3">TRUCK INSURANCE</h5>
+               <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium nulla eos numquam incidunt!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class="card" style="width:18rem;">
+                <img class="card-img-top" src="/Transportation/img/two.jpg" alt="">
+               </div>
+               <h5 class="text-center mt-3">SEA & EAR FREIGHT</h5>
+               <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium nulla eos numquam incidunt!</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class="card" style="width:18rem;">
+                <img class="card-img-top" src="/Transportation/img/three.jpg" alt="">
+               </div>
+               <h5 class="text-center mt-3">PLANE TRANSPORTATION</h5>
+               <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium nulla eos numquam incidunt!</p>
+            </div>
+        </div>
+    </section>
+ <!-- services -->
+    <section class="services mt-5"> 
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="text-center pt-5 my-color title ">Services</h1>
+                    <p class="text-center text-muted mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </section>
+
+
+
 
     <!-- Javascript cdn bootstarp links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/Transportation/js/script.js"></script>
 
 </body>
 </html>
